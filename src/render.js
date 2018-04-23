@@ -9,10 +9,9 @@
 
 const $cards = $("<main class='cards'/>").appendTo("body");
 
-const render_$card = function({name, description, flavor_text, category, attack, defense, cost, major_types, minor_types, arrows, source}){
+const render_$card = function({name, description, effect, category, development}){
 	const $card = $("<div class='card'/>");
 	
-	const arrow_order = ["place", "any", "force"];
 	const minor_types_order = ["income", "revolutionary", "flying", "naval", "electronic", "human", "single"];
 	
 	minor_types.sort((a, b)=> minor_types_order.indexOf(a) - minor_types_order.indexOf(b));
@@ -21,13 +20,7 @@ const render_$card = function({name, description, flavor_text, category, attack,
 	const minor_types_text = minor_types.join(", ");
 	
 	$card.addClass(category);
-	
-	const money_symbol = (match, money)=> `<span class='money'><span>${money}</span></span>`;
-	
-	const damage_symbol = (match, damage)=> `<span class='damage-counter'><span>${damage}</span></span>`;
-	
-	const revolution_symbol = (match, revolutions)=> `<span class='revolution-counter'><span>${revolutions}</span></span>`;
-	
+
 	const bold = (match, text)=> `<b>${text}</b>`;
 	
 	$card.html(`\
@@ -80,7 +73,7 @@ If|Else|Or|Not|Unless|Non-\
 `
 	);
 	
-	for (let arrow_category of Array.from(arrows.sort((a, b)=> arrow_order.indexOf(a) - arrow_order.indexOf(b)))) {
+	for (let arrow_category of arrows.sort((a, b)=> arrow_order.indexOf(a) - arrow_order.indexOf(b))) {
 		$card.find(".arrows").append(`<div class='arrow ${arrow_category}'>`);
 	}
 	

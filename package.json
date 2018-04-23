@@ -11,8 +11,8 @@
     "url": "http://github.com/1j01/systemocracy/issues"
   },
   "scripts": {
-    "import": "coffee src/import.coffee",
-    "export": "coffee src/export.coffee"
+    "import": "coffee src/import.js",
+    "export": "coffee src/export.js"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0",

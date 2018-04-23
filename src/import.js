@@ -23,11 +23,7 @@ const TOKEN_PATH = path.join(TOKEN_DIR, "nodejs-drive-access.json");
 
 // The list of documents to get card data from
 const document_ids = [
-	"16yxrlTSXQqHBAVXlUrRW8oxwCtuEDekdVirzZU7D_XI", // Systems
-	"18HHX9qU6dYGWXSrX1oYZtofsd4bNGHQLdK6qvs9T46w", // Occult
-	"1TOAoNigJ40vKIuDyaDRXfzb6lfhQYBqXT56z4y2RyyI", // Corporate
-	"19MkaSLF3VUOl1L3PXrjCTQqxn_fNf_EM-xgsT2vQNJw", // Military
-	"1fiYz_SJ0JVQgtGQVmR7_iDZKQNDmLrvghh09AKyZVrM" // Neutral/Misc
+	"16yxrlTSXQqHBAVXlUrRW8oxwCtuEDekdVirzZU7D_XI", // Cards ( two sheets cards and projects )
 ];
 
 // Load client secrets from a local file.

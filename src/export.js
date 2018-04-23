@@ -10,14 +10,17 @@ const fs = require("fs");
 const CardGameGenerator = require("card-game-generator");
 
 const counters = {};
-for (let fname of Array.from(fs.readdirSync("images/counters"))) {
+for (let fname of fs.readdirSync("images/counters")) {
 	if (fname.match(/\.png/)) {
 		var m;
 		const counter_name = fname.replace(/[\-.].*/, "");
 		if (m = fname.match(/-(plus|minus)/)) {
 			const side = {"plus": "obverse", "minus": "reverse"}[m[1]];
-			if (counters[counter_name] == null) { counters[counter_name] = {type: "tile"}; }
-			counters[counter_name][side] = fname;
+      if (counters[counter_name]) {
+              counters[counter_name][side] = fname;
+      } else {
+        counters[counter_name] = {type: "tile"};
+      }
 		} else {
 			counters[counter_name] = {type: "token", fname};
 		}

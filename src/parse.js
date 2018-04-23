@@ -12,18 +12,18 @@
 module.exports = function(all_card_data){
 	
 	const major_type_names = {
-		C: "Corporate",
-		O: "Occult",
-		M: "Military",
-		N: "Neutral",
-		F: "Fantastic"
+		A: "Analysis",
+		P: "Planning",
+		B: "Budgeting",
+		C: "Consultant",
+		W: "Writing"
 	};
 	
 	const category_class_names = {
-		a: "any",
-		p: "place",
-		f: "force",
-		e: "event"
+		o: "office politics",
+		r: "resume boosters",
+		a: "agenda items",
+		m: "machinery of government"
 	};
 	
 	const parse_card = function(card_data){
@@ -34,14 +34,11 @@ module.exports = function(all_card_data){
 		let major_types = [];
 		let minor_types = [];
 		const arrows = [];
-		let attack = undefined;
-		let defense = undefined;
-		let category = undefined;
-		let cost = undefined;
+
 		
 		const lines = card_data.trim().split("\n");
 		let lwt = 0;
-		for (var line of Array.from(lines)) {
+		for (var line of lines) {
 			line = line.trim();
 			lwt += 1;
 			
