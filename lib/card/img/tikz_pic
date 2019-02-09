@@ -1,0 +1,57 @@
+
+\definecolor{cffffff}{RGB}{255,255,255}
+
+
+\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(0,-207.00002)}]% layer1
+  % flowRoot16
+  \path[cm={{0.14518,0.0,0.0,0.13516,(-6.9578,205.70474)}},fill=black]
+    (0.0000,0.0000) node[above right] (flowRoot16) {CARD TITLE};
+
+  % text28
+  \path[fill=black,line width=0.056pt] (14.1409,56.9499) node[above right]
+    (text28) {1};
+
+  % rect30
+  \path[line width=0.056pt,rounded corners=0.0000cm] (1.6801,58.6300) rectangle
+    (14.3509,65.7005);
+
+  % flowRoot40
+  \path[cm={{0.26458,0.0,0.0,0.26458,(1.5875,206.47085)}},fill=black]
+    (0.0000,0.0000) node[above right] (flowRoot40) {Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Integer rutrum orci quis dictum dapibus. Fusce
+    finibus eu augue vitae luctus. Pellentesque diam est, sodales id volutpat vel,
+    viverra sit amet nibh. Fusce egestas ex et fringilla elementum. Vestibulum at
+    sem non neque tincidunt tincidunt. Quisque ut orci ullamcorper, varius lacus
+    ac, fermentum lorem. Duis ac interdum tellus. Donec accumsan suscipit est nec
+    pellentesque. Etiam tortor justo, interdum id aliquet vel, ultricies vel
+    tortor. Nullam commodo posuere lectus quis elementum. Nam mi velit,
+    ullamcorper vehicula mattis in, suscipit at est. Orci varius natoque penatibus
+    et magnis dis parturient montes, nascetur ridiculus mus. Morbi fermentum urna
+    sed semper fermentum.};
+
+  % flowRoot56
+  \path[cm={{0.26458,0.0,0.0,0.26458,(0.0,204.35419)}},fill=black] (0.0000,0.0000)
+    node[above right] (flowRoot56) {Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Integer rutrum orci quis dictum dapibus. Fusce finibus eu
+    augue vitae luctus. Pellentesque diam est, sodales id volutpat vel, viverra
+    sit amet nibh. Fusce egestas ex et fringilla elementum. Vestibulum at sem non
+    neque tincidunt tincidunt. Quisque ut orci ullamcorper, varius lacus ac,
+    fermentum lorem. Duis ac interdum tellus. Donec accumsan suscipit est nec
+    pellentesque. Etiam tortor justo, interdum id aliquet vel, ultricies vel
+    tortor. Nullam commodo posuere lectus quis elementum. Nam mi velit,
+    ullamcorper vehicula mattis in, suscipit at est. Orci varius natoque penatibus
+    et magnis dis parturient montes, nascetur ridiculus mus. Morbi fermentum urna
+    sed semper fermentum.};
+
+  % rect64
+  \path[line width=0.056pt,rounded corners=0.0000cm] (-0.0700,76.2711) rectangle
+    (14.7009,77.7412);
+
+  % flowRoot66
+  \path[cm={{0.26458,0.0,0.0,0.26458,(6.35,207.52919)}},fill=cffffff]
+    (0.0000,0.0000) node[above right] (flowRoot66) {CART TYPE};
+
+\end{scope}
+
+\end{tikzpicture}

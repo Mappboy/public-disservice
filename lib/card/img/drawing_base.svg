@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6cm"
+   height="9cm"
+   viewBox="0 0 60 89.999998"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="drawing_base.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="11.824131"
+     inkscape:cy="58.007947"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-207.00002)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <flowRoot
+       inkscape:label="title"
+       transform="matrix(0.14517991,0,0,0.1351567,-6.9577981,205.70474)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.0854454px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot16"
+       xml:space="preserve"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.0854454px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold'"
+         id="flowRegion18"><rect
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.0854454px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold'"
+           y="39.636158"
+           x="105.05586"
+           height="115.15739"
+           width="581.84784"
+           id="rect20" /></flowRegion><flowPara
+         id="flowPara22">CARD TITLE</flowPara></flowRoot>    <text
+       inkscape:label="devpoints"
+       id="text28"
+       y="215.24376"
+       x="53.445831"
+       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:4.93888903px;stroke-width:0.26458332"
+         y="215.24376"
+         x="53.445831"
+         id="tspan26"
+         sodipodi:role="line">1</tspan></text>
+    <rect
+       inkscape:label="cardImage"
+       style="stroke-width:0.26458332"
+       y="221.59377"
+       x="6.3499999"
+       height="26.722916"
+       width="47.889584"
+       id="rect30" />
+    <flowRoot
+       inkscape:label="effect"
+       transform="matrix(0.26458333,0,0,0.26458333,1.5875,206.47085)"
+       style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot40"
+       xml:space="preserve"><flowRegion
+         style="font-size:10.66666698px"
+         id="flowRegion42"><rect
+           style="font-size:10.66666698px"
+           y="229.15747"
+           x="14"
+           height="77"
+           width="201"
+           id="rect44" /></flowRegion><flowPara
+         id="flowPara46">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum orci quis dictum dapibus. Fusce finibus eu augue vitae luctus. Pellentesque diam est, sodales id volutpat vel, viverra sit amet nibh. Fusce egestas ex et fringilla elementum. Vestibulum at sem non neque tincidunt tincidunt. Quisque ut orci ullamcorper, varius lacus ac, fermentum lorem. Duis ac interdum tellus. Donec accumsan suscipit est nec pellentesque. Etiam tortor justo, interdum id aliquet vel, ultricies vel tortor. Nullam commodo posuere lectus quis elementum. Nam mi velit, ullamcorper vehicula mattis in, suscipit at est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi fermentum urna sed semper fermentum. </flowPara></flowRoot>    <flowRoot
+       inkscape:label="description"
+       transform="matrix(0.26458333,0,0,0.26458333,0,204.35419)"
+       style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot56"
+       xml:space="preserve"><flowRegion
+         id="flowRegion58"><rect
+           y="181.15747"
+           x="31"
+           height="44"
+           width="179"
+           id="rect60" /></flowRegion><flowPara
+         id="flowPara62">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum orci quis dictum dapibus. Fusce finibus eu augue vitae luctus. Pellentesque diam est, sodales id volutpat vel, viverra sit amet nibh. Fusce egestas ex et fringilla elementum. Vestibulum at sem non neque tincidunt tincidunt. Quisque ut orci ullamcorper, varius lacus ac, fermentum lorem. Duis ac interdum tellus. Donec accumsan suscipit est nec pellentesque. Etiam tortor justo, interdum id aliquet vel, ultricies vel tortor. Nullam commodo posuere lectus quis elementum. Nam mi velit, ullamcorper vehicula mattis in, suscipit at est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi fermentum urna sed semper fermentum. </flowPara></flowRoot>    <rect
+       inkscape:label="cardtype_box"
+       style="stroke-width:0.26458332"
+       y="288.26877"
+       x="-0.26458332"
+       height="5.5562501"
+       width="55.827084"
+       id="rect64" />
+    <flowRoot
+       inkscape:label="cardtype"
+       transform="matrix(0.26458333,0,0,0.26458333,6.2177083,207.92607)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="flowRoot66"
+       xml:space="preserve"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
+         id="flowRegion68"><rect
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
+           y="307.15747"
+           x="-0.99999994"
+           height="20.999977"
+           width="211"
+           id="rect70" /></flowRegion><flowPara
+         id="flowPara72">CART TYPE</flowPara></flowRoot>  </g>
+</svg>

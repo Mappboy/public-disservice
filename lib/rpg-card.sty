@@ -1,0 +1,34 @@
+\ProvidesPackage{rpg-card}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% dependencies
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[margin=6mm,top=5mm]{geometry}
+\usepackage{anttor}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows}
+\usepackage[default]{comicneue}
+\usepackage{fourier-orns}
+
+%%% internal
+\usepackage{card/style}
+\usepackage{card/colour}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newcommand{\cardTypeAdditionalResponsiblities}[2]{\cardtype{rpg_card_equipementbg}{Équipement}{\includegraphics[width=0.5cm]{\detokenize{#1}}}{ - #2}}
+\newcommand{\cardTypeAdditionalResponsiblities}[1]{\cardtype{rpg_card_additional_responsibilities}{#1}{}}
+\newcommand{\cardtypeAgendaItems}[1]{\cardtype{rpg_card_agenda_items}{#1}{}}
+\newcommand{\cardtypeMachinaryOfGovernment}[1]{\cardtype{rpg_card_machine_of_government}{#1}{}}
+\newcommand{\cardtypeOfficePolitics}[1]{\cardtype{rpg_card_office_politics}{#1}{}}
+\newcommand{\cardtypeInActions}[1]{\cardtype{rpg_card_inactions}{#1}{}}
+\newcommand{\cardtypeResumeBoosters}[1]{\cardtype{rpg_card_resume_boosters}{#1}{}}
+\newcommand{\cardtypeProject}[1]{\cardtype{rpg_card_projects}{#1}{}}
