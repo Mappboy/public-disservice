@@ -114,32 +114,37 @@ def create_tex_file(doc_name, card_group):
     doc = Document(f"output", document_options=["a4paper", "portait"], geometry_options=geometry_options)
     title = bold(doc_name)
     page_title = LargeText(title)
+    all_cards = 0
     with doc.create(Center()):
         doc.append(page_title)
     with doc.create(Center()):
         # doc.change_page_style("empty")
         img, tex_cmd, cards = card_group
         for i, card in enumerate(cards):
-            if i % 3 == 0 and i != 0:
-                doc.append(VerticalSpace('2mm', star=False))
-            with doc.create(TikZ()) as pic:
+            all_cards += i
+            quantity = card.get("Quantity", 1)
+            for c in range(int(quantity)):
+                if all_cards % 3 == 0 and all_cards != 0:
+                    doc.append(VerticalSpace('2mm', star=False))
+                with doc.create(TikZ()) as pic:
 
-                pic.append(CardBackground(img))
-                pic.append(tex_cmd(doc_name))
-                if not doc_name == "Project":
-                    pic.append(CardTitle(card["Name"]))
-                    pic.append(CardContent(arguments=[card["Description/illustration"], card["Effect"]]))
-                else:
-                    pic.append(CardTitle( card["Requirements"]))
-                    pic.append(CardContent(arguments=[card["Project"],card["Description"]]))
-                price = card.get("Development Value")
-                if price:
-                    pic.append(CardPrice(price))
-                pic.append(CardBorder())
-            if not (i + 1 % 3 == 0) or i == 0:
-                doc.append(HorizontalSpace('5mm',star=False))
-
+                    pic.append(CardBackground(img))
+                    pic.append(tex_cmd(doc_name))
+                    if not doc_name == "Project":
+                        pic.append(CardTitle(card["Name"]))
+                        pic.append(CardContent(arguments=[card["Description/illustration"], card["Effect"]]))
+                    else:
+                        pic.append(CardTitle( card["Requirements"]))
+                        pic.append(CardContent(arguments=[card["Project"],card["Description"]]))
+                    price = card.get("Development Value")
+                    if price:
+                        pic.append(CardPrice(price))
+                    pic.append(CardBorder())
+                if not (all_cards + 1 % 3 == 0) or all_cards == 0:
+                    doc.append(HorizontalSpace('5mm',star=False))
+                all_cards += c
     doc.generate_pdf(f"{doc_name}", clean_tex=True)
+
     move_docs2output(doc_name)
 
 def move_docs2output(doc_name):
@@ -154,6 +159,15 @@ def move_docs2output(doc_name):
             os.remove(output_file)
         shutil.move(f, "output")
 
+def fetch_rules(creds):
+    """
+    Fetch our rules from Google Drive
+    :return:
+    """
+    service = build('sheets', 'v4', credentials=creds)
+
+    # Call the Sheets API
+    sheet = service.spreadsheets()
 
 def main():
     """Shows basic usage of the Sheets API.

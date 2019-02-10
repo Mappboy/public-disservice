@@ -87,7 +87,7 @@
 %  fourth is scriptsize
 \newcommand{\cardtype}[3]{
     %   First we fill the intersecting area
-    %   The \clip command does not allow options, therefore 
+    %   The \clip command does not allow options, therefore
     %   we have to use a scope to set the even odd rule.
     \begin{scope}[even odd rule]
         %   Define a clipping path. All paths outside shapeCard will
@@ -129,8 +129,9 @@
         \textit{\footnotesize #1}
     };
     \node[below right, text width=(\cardwidth-2*\strippadding-\stripwidth-2*\textpadding-0.3)*1cm] at (2*\strippadding+\stripwidth+\textpadding,0.73*\shapeContentAreaHeight) {
-        \vrule width \textwidth height 2pt \\[-2pt]
         \vspace{0.2cm}
+        \vrule width \textwidth height 2pt \\[-2pt]
+        \vspace{0.3cm}
         {\scriptsize #2}
     };
 }
